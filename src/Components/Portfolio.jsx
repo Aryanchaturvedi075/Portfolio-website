@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/waterfall.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "image of a waterfall in africa";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "N Queens Chess Solver",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "AI Local Search Algorithm, using Simulated Annealing in C++ to find a first available solution to placing N number of Queens on an N-sized Chess Board in a way that no other queen can attack each other.",
+    url: "https://github.com/Aryanchaturvedi075/N-Queens-Chess-Solver",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Monte Carlo Tree Search Agent",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Designed a Monte Carlo Search Tree Agent with Upper Confidence Bound to compete in an algorithmic game contest.",
+    url: "https://github.com/Aryanchaturvedi075/Monte_Carlo_Agent_COMP424_F2024",
   },
   {
-    title: "My Resume Site",
+    title: "Course Recommendation System for McGill University",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Developed a visually intuitive website in a team of 4 for McGill CS Majors to optimize their course selection process, created using Node.js, React, API Endpoints, and a Neo4j Database.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Sign Language Recognition Neural Network",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a Multi-Layer Perceptron using only Numpy and compared it against a pre-built Convolutional Neural Network in Keras to identify American Sign Language letters from Kaggle Dataset. Our model outperformed the CNN with an average accuracy of 99.5% against 94.6%",
+    url: "https://github.com/Aryanchaturvedi075/Sign_Language_MNIST",
   },
 ];
 
